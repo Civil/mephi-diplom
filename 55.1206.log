@@ -1,0 +1,16 @@
+15:01:21 Run "sdram_abus".
+15:02:18 "sdram_abus" Passed.
+15:02:18 Run "sdram_dbus".
+15:02:20 "sdram_dbus" Passed.
+15:02:20 Run "sdram_cells".
+15:02:23 "sdram_cells" Passed.
+15:02:23 Run "eprom_checksum".
+15:02:27 "eprom_checksum" Passed.
+15:02:27 Extended info: img0: 72668B OK; img1: 107180B OK;
+15:02:27 Run "gpio_state".
+15:02:27 "gpio_state" Passed.
+15:02:27 Extended info: Inputs:0xf000; State:0x1000; Expect:0x1000
+15:02:27 Run "led_on".
+15:02:39 "led_on" Passed.
+15:02:39 Run "eth_loop".
+15:02:43 "eth_loop" Passed.

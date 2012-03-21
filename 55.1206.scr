@@ -1,0 +1,28 @@
+#!WinMT_Test_Scenario
+
+# Config:
+GEN_COM: COM7
+RS485_COM: COM7
+RS485_Bytes: 4096
+Ethetnet_MAC: Network adapter 'Microsoft' on local host
+Ethernet_Packets: 1000
+Usb_COM: COM7
+Usb_Bytes: 4096
+ICB_COM: COM7
+ICB_Slot: 5
+LoopCh: false
+VerboseCh: false
+EthDelayBeforeFirstCh: false
+EthDelayBeforeOnlyFirstCh: false
+EthFrameDelay: 0
+ICB_Registers: 0x00: 0x04
+ICB_Registers: 0x02: 0x00
+
+# Test List:
+Scenario_Test: sdram_abus
+Scenario_Test: sdram_dbus
+Scenario_Test: sdram_cells
+Scenario_Test: eprom_checksum
+Scenario_Test: gpio_state
+Scenario_Test: led_on
+Scenario_Test: eth_loop
